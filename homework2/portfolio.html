@@ -1,0 +1,276 @@
+
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Brandon White</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<style>
+    body {
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 18px;
+      line-height: 34px;
+      color: #777;
+      background: url("../images/concrete_seamless.png");
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* general */
+    
+    .container {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      clear: both;
+    }
+    
+    h1,
+    h2,
+    h3,
+    p {
+      margin-bottom: 20px;
+    }
+    
+    p:last-child {
+      margin-bottom: 0;
+    }
+    
+    h1,
+    h2,
+    h3 {
+      font-family: Georgia, Times, "Times New Roman", serif;
+      font-weight: 700;
+      color: #4aaaa5;
+    }
+    
+    h1 {
+      padding-bottom: 20px;
+      font-size: 30px;
+      line-height: 49px;
+      border-bottom: 3px solid #ddd;
+    }
+    
+    h2,
+    h3 {
+      font-size: 22px;
+    }
+    
+    /* header */
+    
+    #masthead {
+      position: fixed;
+      z-index: 99;
+      width: 100%;
+      margin: 0 0 30px;
+      overflow: auto;
+      color: #fff;
+      background: #fff;
+      border-bottom: 2px solid #ccc;
+    }
+    
+    #logo {
+      float: left;
+      width: 250px;
+      height: 90px;
+      font-family: Georgia, Times, "Times New Roman", serif;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 90px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      background: #4aaaa5;
+    }
+    
+    nav {
+      float: right;
+      margin-top: 25px;
+    }
+    
+    nav a {
+      display: inline-block;
+      padding-left: 15px;
+      margin-left: 15px;
+      line-height: 18px;
+      color: #999;
+      text-decoration: none;
+      border-left: 1px solid #efefef;
+    }
+    
+    nav a:first-child {
+      border-left: 0 none;
+    }
+    
+    /* footer */
+    
+    footer {
+      padding: 30px 0;
+      clear: both;
+      font-size: 12px;
+      color: #fff;
+      color: #ccc;
+      text-align: center;
+      background: #666;
+      border-top: 8px solid #4aaaa5;
+      height: 50px;
+    }
+    
+    h3, h2 {
+      padding-bottom: 20px;
+      margin-bottom: 15px;
+      line-height: 22px;
+      border-bottom: 2px solid #eee;
+    }
+    .work {
+      position: relative;
+      float: left;
+      width: 274px;
+      margin: 20px 0 25px;
+      overflow: auto;
+    }
+    
+    .work:nth-child(even) {
+      margin-right: 40px;
+    }
+    
+    .work img {
+      width: 100%;
+      border: 0 none;
+      opacity: 0.8;
+    }
+    
+    .work h3 {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 0;
+      font-weight: 300;
+      line-height: 30px;
+      color: #fff;
+      text-align: center;
+      background: #4aaaa5;
+      border-bottom: 0;
+    }
+    
+    .auth-image {
+      float: left;
+      width: 200px;
+      height: auto;
+      margin-top: 10px;
+      margin-right: 25px;
+    }  
+    .column{
+      float:left;
+      width:50%;
+    }
+    /*clears floats after the columns*/
+    .row:after{
+      content:"";
+      display:table;
+      clear:both;
+    }
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    a{
+      float:left
+    }
+    /* Small devices (landscape phones, 576px and up)*/
+    @media (max-width: 640px){
+      
+    }
+
+    /*Medium devices (tablets, 768px and up)*/
+    @media (min-width: 768px){
+
+    }
+
+    /*Large devices (desktops, 980px and up)*/
+    @media (min-width: 980px) {
+    }
+</style>
+<body>
+  <header id="masthead">
+    <div class="container">
+      <nav id="sticky" class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">Brandon White</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <div class="col-md-6".col-xs-12> 
+      <div class="row"></div>
+        <section class="main-section">
+          <h1>Portfolio</h1>
+
+          <div class="work">
+            <img src="https://raw.githubusercontent.com/UCF-Coding-Boot-Camp/UCFVW201808FSF2/master/homework/week-1/solution/assets/images/technics-q-c-640-480-1.jpg?token=Am6lzRd6gXENu3L8C6aGdwC-A8Sa9wUqks5bjEkhwA%3D%3D" alt="Word Guess">
+            
+            <h3>Word Guess</h3>
+          </div>
+          <div class="work">
+            <img src="https://raw.githubusercontent.com/UCF-Coding-Boot-Camp/UCFVW201808FSF2/master/homework/week-1/solution/assets/images/technics-q-c-640-480-2.jpg?token=Am6lzdJm2ousvx87sqmzZbH-gxenWZ06ks5bjElUwA%3D%3D" alt="RPG Game">
+
+            <h3>RPG Game</h3>
+          </div>
+          <div class="work">
+              <img src="https://raw.githubusercontent.com/UCF-Coding-Boot-Camp/UCFVW201808FSF2/master/homework/week-1/solution/assets/images/technics-q-c-640-480-5.jpg?token=Am6lzQ5b6zHVXbRSe2BTyU_NiYcn6DfEks5bjEluwA%3D%3D" alt="Trivia Game">
+  
+              <h3>Trivia Game</h3>
+          </div>
+        </section>  
+      </div>    
+   </div>  
+  </div>
+  <div id="container">
+    <div class="col-md-6".col-xs-12>
+      <div class="row" >    
+        <section>
+          <div class="work">
+            <img src="https://raw.githubusercontent.com/UCF-Coding-Boot-Camp/UCFVW201808FSF2/master/homework/week-1/solution/assets/images/technics-q-c-640-480-7.jpg?token=Am6lzWaZDFh6YA7b4jRClCRzIFuLyLOsks5bjEmGwA%3D%3D" alt="Rutgers Info Widget">
+
+            <h3>Rutgers Info Widget</h3>
+          </div>
+          <div class="work">
+            <img src="https://raw.githubusercontent.com/UCF-Coding-Boot-Camp/UCFVW201808FSF2/master/homework/week-1/solution/assets/images/technics-q-c-640-480-9.jpg?token=Am6lzUIRW48KQq2uihyMrvQxTCYLSNiuks5bjEmYwA%3D%3D" alt="Rock Paper Scissors">
+
+            <h3>Rock Paper Scissors</h3>
+          </div>
+        </section>
+      </div>  
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
+</body>
+
+</html>
